@@ -1,0 +1,146 @@
+html
+{
+   font-size: 60%; 
+}
+body
+{
+    background-color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container
+{
+    background-color: rgb(235, 156, 156);
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    
+  
+}
+.container2
+{
+    display: block;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+header
+{
+    margin: 10px;
+    margin-left: 30px;
+    color: aliceblue;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+section
+{
+    padding: 20px;
+    font-size: 15px;
+    background-color: brown;
+    width: 100%;
+    margin: 10px;
+}
+h1
+{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: brown;
+    color: rgb(58, 32, 32);
+    margin-left: 30px;
+
+}
+h2
+{
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(58, 32, 32);
+    font-size: 20px;
+    background-color: brown;
+    margin-left: 30px;
+}
+h3 
+{
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(58, 32, 32);
+    font-size: 18px;
+    background-color: rgb(190, 74, 74);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+h4
+{   
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(58, 32, 32);
+    font-size: 16px;
+    background-color: rgb(190, 74, 74);
+    padding-top: 10px;
+    margin-left: 30px;
+}
+p
+{
+    margin-bottom: 10px;
+    line-height: 15px;
+    margin-left: 30px;
+    padding: 10px;
+}
+ol
+{
+    margin-left: 30px;
+}
+section nav
+{
+    display: block;
+    float: left;
+    width: 30%;
+}
+nav li
+{
+    margin: 1px 20px  1 px 0;
+    padding: 10px;
+    background-color: rgb(236, 146, 146);
+}
+nav li:hover
+{
+    background-color: rgb(233, 33, 33);
+}
+section article
+{
+    display: block;
+    float: left;
+    width: 70%;
+}
+nav a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer
+{
+    background-color: rgb(75, 22, 22);
+    color: aliceblue;
+    display: block;
+    float: left;
+    width: 100%;
+}
+footer p
+{
+    color: black;
+    font-size: 14px;
+}
+footer small
+{
+    font-size: 80%;
+    display: block;
+}
+.cog-branding--minimal
+{
+    visibility: hidden !important;
+}
